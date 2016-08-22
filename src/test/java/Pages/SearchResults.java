@@ -78,9 +78,4 @@ public class SearchResults extends BasePage {
         return new SearchResults();
     }
 
-
-
-
-
-
 }

@@ -20,7 +20,6 @@ public class BasePage {
     public void implicitWaitForElement (WebElement element) {
         WebDriverWait implicitWaitTime = new WebDriverWait(driver, 20);
         implicitWaitTime.until(ExpectedConditions.elementToBeClickable(element));
-
     }
 
 }
